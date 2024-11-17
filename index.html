@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess my number</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <button class= "btn" id="play-again">Play Again</button>
+        <p id="title">Guess my number!</p>
+        <p id="explanation"></p>
+    </header>
+    <main>
+        <div class="upper">
+            <input style="background-color: #ffe6e2;" type="number" id="number-input">
+            <button class="btn" id="btn-check">Check the number</button>
+        </div>
+        <div class = "lower">
+            <table id="myTable">
+                <thead>
+                  <tr>
+                    <th>Guessed Number</th>
+                    <th> 🎯🎯🎯 </th>
+                    <th> 🤏🤏🤏 </th>
+                  </tr>
+                </thead>
+                <tbody id="table-body">
+                  <!-- Rows will be added here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
